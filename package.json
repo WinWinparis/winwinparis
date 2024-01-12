@@ -12,7 +12,8 @@
     "yarn": "1.22.5"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node -r http-server/index.js index.html"
+  
   },
 
 
