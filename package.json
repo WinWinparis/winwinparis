@@ -11,13 +11,6 @@
     "npm": "6.14.11",
     "yarn": "1.22.5"
   },
-  "scripts": {
-    "dev": "razzle start",
-    "build": "razzle build",
-    "heroku-postbuild": "yarn build",
-    "start": "node ./build/server.js",
-    "db": "knex"
-  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@opuscapita/react-async-select": "^3.0.0",
